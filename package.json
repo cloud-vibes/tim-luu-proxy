@@ -1,7 +1,7 @@
 {
-  "name": "comment_section_proxy_kevin",
+  "name": "tim-luu-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "tim luu proxy server for Cloud Vibes app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZoundLoud/comment_section_proxy_kevin.git"
+    "url": "git+https://github.com/cloud-vibes/tim-luu-proxy.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ZoundLoud/comment_section_proxy_kevin/issues"
+    "url": "https://github.com/cloud-vibes/tim-luu-proxy/issues"
   },
-  "homepage": "https://github.com/ZoundLoud/comment_section_proxy_kevin#readme",
+  "homepage": "https://https://github.com/cloud-vibes/tim-luu-proxy#readme",
   "dependencies": {
     "express": "^4.16.4",
     "morgan": "^1.9.1",
