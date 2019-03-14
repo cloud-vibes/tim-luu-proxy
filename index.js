@@ -12,8 +12,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api/musicplayer/*', proxy({ target: 'http://54.242.57.180', changeOrigin: true }));
 app.use('/api/description/*', proxy({ target: 'http://54.175.49.234', changeOrigin: true }));
 app.use('/api/comments/*', proxy({ target: 'http:///54.80.244.244', changeOrigin: true }));
-app.use('/api/sidebar/*', proxy({ target: 'http://3.91.101.162', changeOrigin: true }));
-app.use('/graphql', proxy({ target: 'http://3.91.101.162', changeOrigin: true }));
+app.use('/api/sidebar/*', proxy({ target: 'http://ec2-18-233-7-172.compute-1.amazonaws.com/', changeOrigin: true }));
+app.use('/graphql', proxy({ target: 'http://ec2-18-233-7-172.compute-1.amazonaws.com/', changeOrigin: true }));
 
 
 app.get('*', (req, res) => {
