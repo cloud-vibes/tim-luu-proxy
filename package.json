@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "stress": "artillery run ./test/artillery/proxy.yml"
+    "stress": "artillery run ./test/artillery-testing/artillery.yml"
   },
   "repository": {
     "type": "git",
